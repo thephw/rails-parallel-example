@@ -4,8 +4,6 @@ set -eu
 
 env
 
-ls $HOME/.rbenv/bin
-
 ruby -v
 
 bundle install
