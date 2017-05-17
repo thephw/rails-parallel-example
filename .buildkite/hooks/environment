@@ -1,7 +1,9 @@
 #!/bin/bash
 
 set -eu
-
+echo "I AM CONFIGURING THE ENVIRONMENT!"
 export PATH="$HOME/.rbenv/bin:$PATH"
 
 eval "$(rbenv init -)"
+
+env
