@@ -1,7 +1,5 @@
 {
-	"name": "rails-parallel-example",
-	"description": "...",
-	"README": "...",
-	"repository": "...",
-	"license": "MIT"
+  "name": "myapp",
+  "private": true,
+  "dependencies": {}
 }

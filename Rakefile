@@ -1,9 +1,6 @@
-namespace :db do
-  task :reset do
-    puts "This is a fake db:reset"
-  end
-end
+# Add your own tasks in files placed in lib/tasks ending in .rake,
+# for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
-require 'knapsack'
+require_relative 'config/application'
 
-Knapsack.load_tasks
+Rails.application.load_tasks
